@@ -10,4 +10,7 @@ public class HelloCircleController {
     public String helloCircle(){
         return "Hello, Circle!";
     }
+
+    @GetMapping(value = "/answer")
+    public String getMeaningOfLifeTheUniverseAndEverything() { return "The answer is 42!";}
 }
